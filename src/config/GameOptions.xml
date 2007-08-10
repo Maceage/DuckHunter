@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameOptions>
+	<Option Name="DebugMode">0</Option>
+	<Option Name="FPSCounter">1</Option>
+	<Option Name="PlayerName">Mace</Option>
+	<Option Name="SoundEnabled">1</Option>
+	<SoundOptions>
+		<Option Name="SoundAmbience">1</Option>
+		<Option Name="SoundDuck">1</Option>
+		<Option Name="SoundShot">1</Option>
+		<Option Name="SoundCheer">1</Option>
+	</SoundOptions>
+</GameOptions>

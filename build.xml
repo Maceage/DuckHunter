@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+
+<!-- ===================================================================== -->
+<!-- DuckHunter                                                            -->
+<!-- Programming On The Internet: Assignment 1                             -->
+<!-- Graham Mace - MIT2 / Group B                                          -->
+<!-- Ant 1.5 build file                                                    -->
+<!-- ===================================================================== -->
+
+<project name="DuckHunter" default="build" basedir=".">
+
+    <property name="srcdir" value="src"/>
+    <property name="destdir" value="build"/>
+    <property name="docdir" value="javadoc"/>
+    <property name="resdir" value="resources"/>
+    <property name="configdir" value="${srcdir}/config"/>
+    <property name="reldir" value="release"/>
+    <property name="scoresFile" value="${config}/scores.dat"/>
+
+    <!-- Allow user to override properties without editing this file -->
+    <property file="${user.home}/.ant.properties" />
+
+    <!-- =================================================================== -->
+    <!-- Build                                                               -->
+    <!-- =================================================================== -->
+    <target name="build" depends="clean, compile" description="Compiles and creates the Jar file">
+	<copy todir="${destdir}">
+		<fileset dir="${resdir}" includes="**/*.*" />
+	</copy>
+	
+	<copy todir="${destdir}/config">
+		<fileset dir="${configdir}" includes="**/*.*" />
+	</copy>
+
+	<mkdir dir="${destdir}" /> 
+	<mkdir dir="release/" />
+	
+	<jar jarfile="${basedir}/release/DuckHunter.jar">
+            <manifest>
+                <attribute name="Main-Class" value="core/GameLauncher" />
+            </manifest>
+	    <fileset dir="${destdir}" includes="**/*.class" />
+	    <fileset dir="${destdir}" includes="**/*.xml" />
+	    <fileset dir="${destdir}" includes="**/*.txt" />
+	    <fileset dir="${resdir}" includes="**/*.png" />
+	    <fileset dir="${resdir}" includes="**/*.wav" />
+        </jar>
+    </target>
+
+    <!-- ================================================================= -->
+    <!-- Compile                                                           -->
+    <!-- ================================================================= -->
+    <target name="compile" description="Compiles DuckHunter">
+
+        <mkdir dir="${destdir}"/>
+	
+	<copy todir="${destdir}">
+		<fileset dir="${resdir}" includes="**/*.*"  />
+	</copy>
+	
+	<copy todir="${destdir}/config">
+		<fileset dir="${configdir}" includes="**/*.*" />
+	</copy>	
+
+        <javac srcdir="${srcdir}" destdir="${destdir}" debug="on" >
+
+            <include name="**/*.java" />
+        </javac>
+
+    </target>
+
+
+    <!-- ================================================================= -->
+    <!-- Clean                                                             -->
+    <!-- ================================================================= -->
+    <target name="clean" description="Deletes the build directory">
+	<delete dir="${docdir}" failonerror="false" />
+	<delete dir="${destdir}" failonerror="false" />
+	<delete dir="${reldir}" failonerror="false" />
+	<delete file="${scoresFile}" />
+    </target>
+
+    <!-- =================================================================== -->
+    <!-- Everything                                                          -->
+    <!-- =================================================================== -->
+    <target name="everything" depends="clean, build, javadoc" description="Cleans all Class files, Resources and JavaDocs and performs a Build" />
+
+    <!-- =================================================================== -->
+    <!-- Javadoc                                                             -->
+    <!-- =================================================================== -->
+    <target name="javadoc" description="Creates API documentation (JavaDocs) for this chapter">
+
+        <delete dir="${docdir}" failonerror="false" />
+        <mkdir dir="${docdir}" />
+
+        <javadoc destdir="${docdir}" author="true" version="true" access="public">
+
+            <fileset dir="${srcdir}">
+		<include name="**/*.java" />
+            </fileset>
+
+            <link href="http://java.sun.com/j2se/1.5.0/docs/api/" />
+
+        </javadoc>
+    </target>
+
+    <!-- =================================================================== -->
+    <!-- Run                                                                 -->
+    <!-- =================================================================== -->
+    <target name="run" description="Runs the generated .jar file">
+        <java jar="release/DuckHunter.jar" fork="true" failonerror="true" maxmemory="256m" />
+    </target>
+</project>

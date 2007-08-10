@@ -1,0 +1,10 @@
+BODY { background: #aaffff } 
+H1 { background: cyan }
+H1.centre { text-align: center }
+H3 { background: #aaaaff }
+P { margin-left: 60px; margin-right: 60px }
+A { color: blue }
+TD.white { background-color: white; border: double black; text-align: center; width: 20% }
+OL,UL { margin-left: 80px; margin-right: 60px }
+LI P { margin: 0; }
+LI { margin-bottom: 10px }

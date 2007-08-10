@@ -1,0 +1,58 @@
+Compiled examples:
+http://www.java-gaming.com/shooting/duckhunt/index.php
+http://www.thepcmanwebsite.com/media/duck_hunt/duck_hunt.shtml
+http://www.acid-play.com/download/duck-hunter-3d/
+http://www.ticalc.org/archives/files/fileinfo/165/16514.html
+http://forums.gamemaker.nl/index.php?showtopic=81168
+http://java.dnsalias.com/
+http://forums.nintendo.com/nintendo/board/message?board.id=Reviews&message.id=3263
+
+Graphics resources:
+http://www.shaneliesegang.com/projects/bvw3.php
+http://www.photoshoptechniques.com/forum/showthread.php?threadid=19619
+http://www.designstop.com/free_stuff/clipart/bullets/bullets.htm
+http://www.shutterstock.jp/language.ja/s/splat/cat-p5.html?searchterm=splat&sortby=popular&
+
+Sound resources:
+http://members.tripod.com/ushk/sounds/sounds.html
+http://www.a1freesoundeffects.com/cartoon.html
+http://www.wavsource.com/sfx/sfx2.htm
+http://www.vionline.com/sound.html
+http://humor.about.com/od/soundbites/
+http://www.therecordist.com/pages/game_sfx.html
+http://www.halloweenforum.com/showthread.php?t=10118
+http://www.windowsgames.co.uk/effects.html
+
+Sound code:
+http://www.javazoom.net/mp3spi/mp3spi.html
+http://data.uta.edu/~telemm/JavaSound/
+
+Graphics code:
+http://www.planetalia.com/cursos/
+http://java.sun.com/docs/books/tutorial/extra/fullscreen/bufferstrategy.html
+http://www.yov408.com/javagraphics/javagraphics.html
+http://www.cokeandcode.com/info/tut2d.html
+http://javaalmanac.com/egs/java.awt/screen_Flip.html
+
+Misc code:
+http://schmidt.devlib.org/java/word-count.html
+http://www.onjava.com/pub/a/onjava/2002/06/26/xml.html
+http://www.perfectxml.com/articles/XML/XMLParser.asp
+http://www.saxproject.org/quickstart.html
+http://www.w3schools.com/schema/default.asp
+http://javafaq.nu/index.php?name=News&file=article&sid=1006
+http://www.javapractices.com/Topic68.cjp
+http://javafaq.nu/java-example-code-218.html
+http://www.bigbold.com/snippets/posts/show/1875
+http://mindprod.com/jgloss/file.html
+http://www.cafeconleche.org/books/xmljava/chapters/
+http://www.javaspecialists.co.za/archive/newsletter.do?issue=042&locale=en_US
+http://www.codeguru.com/java/tij/tij_c.shtml
+
+Resources:
+http://en.wikipedia.org/wiki/Duck_Hunt
+http://en.wikipedia.org/wiki/Java_(Sun)
+http://en.wikipedia.org/wiki/.NET_Framework
+http://www.oreilly.com/catalog/expjava/excerpt/index.html
+http://builder.com.com/5100-6370-5144546.html
+http://www.smartdraw.com/tutorials/software-uml/

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File Resources.xml -->
+<Resources>
+	<AnimSet Name="Flyupright">
+		<FolderPath>images/duck/flyupright/</FolderPath>
+		<FileNamePrefix>bvw3-flyupright_frame_0</FileNamePrefix>
+		<FileCount>23</FileCount>
+	</AnimSet>
+	<AnimSet Name="Flyright">
+		<FolderPath>resources/images/duck/flyright/</FolderPath>
+		<FileNamePrefix>bvw3-flyright_frame_0</FileNamePrefix>
+		<FileNameSuffix>.png</FileNameSuffix>
+		<FileCount>23</FileCount>
+	</AnimSet>
+	<AnimSet Name="Death">
+		<FolderPath>resources/images/duck/deathspiral/</FolderPath>
+		<FileNamePrefix>bvw3-deathspiral_frame_0</FileNamePrefix>
+		<FileNameSuffix>.png</FileNameSuffix>
+		<FileCount>20</FileCount>
+	</AnimSet>
+	<AnimSet Name="Shot">
+		<FolderPath>resources/images/duck/shot/</FolderPath>
+		<FileNamePrefix>bvw3-shot</FileNamePrefix>
+		<FileNameSuffix>.png</FileNameSuffix>
+		<FileCount>1</FileCount>
+	</AnimSet>
+	<AnimSet Name="Decal">
+		<FolderPath>resources/images/decals/</FolderPath>
+		<FileNamePrefix>hole</FileNamePrefix>
+		<FileNameSuffix>.png</FileNameSuffix>
+		<FileCount>3</FileCount>
+	</AnimSet>
+	<AnimFrame Name="Background">
+		<FolderPath>resources/images/background/</FolderPath>
+		<FileName>background.png</FileName>
+	</AnimFrame>
+	<AnimFrame Name="Paused">
+		<FolderPath>resources/images/interface/text/</FolderPath>
+		<FileName>paused.png</FileName>
+	</AnimFrame>
+	<AnimFrame Name="FlyAway">
+		<FolderPath>resources/images/interface/text/</FolderPath>
+		<FileName>flyaway.png</FileName>
+	</AnimFrame>
+	<AnimFrame Name="DuckIcon">
+		<FolderPath>resources/images/interface/duckicon/</FolderPath>
+		<FileName>duck.png</FileName>
+	</AnimFrame>
+	<AnimFrame Name="Cloud">
+		<FolderPath>resources/images/background/</FolderPath>
+		<FileName>cloud.png</FileName>
+	</AnimFrame>
+	<AnimFrame Name="BulletIcon">
+		<FolderPath>images/interface/bullet</FolderPath>
+		<FileName>small.png</FileName>
+	</AnimFrame>
+	<SoundSet Name="Ambience">
+		<FolderPath>resources/sounds/ambience</FolderPath>
+		<FileName>sounds/ambience/WetlandsNight.wav</FileName>
+		<FileName>sounds/ambience/WetlandsDay.wav</FileName>
+	</SoundSet>
+	<SoundSet Name="Gunshot">
+		<FolderPath>resources/sounds/gun</FolderPath>
+		<FileName>gun_shotgun1.wav</FileName>
+		<FileName>gun_shotgun2.wav</FileName>
+	</SoundSet>
+	<SoundSet Name="Gunmiss">
+		<FolderPath>resources/sounds/gun</FolderPath>
+		<FileName>richochet.wav</FileName>
+	</SoundSet>
+	<SoundSet Name="Gunclick">
+		<FolderPath>resources/sounds/gun</FolderPath>
+		<FileName>mp44_clipout.wav</FileName>
+	</SoundSet>
+	<SoundSet Name="Gunreload">
+		<FolderPath>resources/sounds/gun</FolderPath>
+		<FileName>gun_shoot_metal2.wav</FileName>
+	</SoundSet>
+	<SoundSet Name="DuckAlive">
+		<FolderPath>resources/sounds/duck/alive</FolderPath>
+		<FileName>1duck.wav</FileName>
+		<FileName>duck-mad.wav</FileName>
+		<FileName>duck-quack1.wav</FileName>
+		<FileName>duck-quack2.wav</FileName>
+		<FileName>duck-quack3.wav</FileName>
+	</SoundSet>
+	<SoundSet Name="DuckDead">
+		<FolderPath>resources/sounds/duck/dead</FolderPath>
+		<FileName>body_medium_impact_soft1.wav</FileName>
+		<FileName>body_medium_impact_soft2.wav</FileName>
+		<FileName>body_medium_impact_soft3.wav</FileName>
+		<FileName>body_medium_impact_soft4.wav</FileName>
+		<FileName>body_medium_impact_soft5.wav</FileName>
+		<FileName>body_medium_impact_soft6.wav</FileName>
+		<FileName>body_medium_impact_soft7.wav</FileName>
+	</SoundSet>
+</Resources>
+

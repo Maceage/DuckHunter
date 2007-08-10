@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Java Programming - Ricky Clarkson</title>
+		<link type='text/css' href='page.css' rel='stylesheet'>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<h1>Assignment - 2006 - Zombies</h1>
+
+		<ul>
+			<li>50% of the marks are a report.</li>
+			<li>50% of the marks are from your code.</li>
+		</ul>
+
+		<p>
+			The assignment is a point-and-click shooting game,
+			loosely based on Zombies or Duck Hunt (NES).
+		</p>
+
+		<h3>Code</h3>
+
+		<p>	
+			I have provided a skeleton application, which I would
+			suggest that you use, but you don't have to.
+		</p>
+
+		<p>
+			Take a look at the skeleton application in operation,
+			and try clicking on the 'zombie' that appears.
+		</p>
+
+		<p>
+			You are expected to build upon this functionality,
+			by doing some of these:
+		</p>
+
+		<ul>
+			<li>
+				Adding menus or buttons for controlling the game's startup,
+				shutdown, restarting, pausing, etc.  Pause might be
+				difficult, don't get hung up on it.
+			</li>
+
+			<li>
+				Making a background image.
+			</li>
+
+			<li>
+				Making the zombie more attractive, possibly even animated.
+			</li>
+
+			<li>
+				Making more than one zombie appear (arrays or collections).
+			</li>
+
+			<li>
+				Making the display contain other moving objects, e.g., background effects such as the sun
+				moving across the sky.
+			</li>
+
+			<li>
+				Adding sound (AudioClip or JMF are good google terms for this).
+			</li>
+
+			<li>
+				Making the shooting itself have some graphics, e.g., a line drawn from the bottom of the
+				screen to the point where the user clicked.
+			</li>
+
+			<li>
+				Keeping a high score.  Note that if you want to keep this in memory, this is really easy.
+				If you want to save it to a file or a database, this is harder (more marks!).
+			</li>
+
+			<li>
+				Adding a splashscreen.  I know as Flash users you'll all jump at this.
+			</li>
+
+			<li>
+				Multiple <b>types</b> of zombie, i.e., some with different images and some that move
+				differently.  Maybe even some that are worth more points than others (maybe they move faster,
+				so they're harder to hit).
+			</li>
+
+			<li>
+				Improving the (frankly terrible) graphics.  Note that transparent GIFs work in Java, and most
+				transparent PNGs work.  There are two types of transparent PNG, and I think Java supports one
+				of them.  It shouldn't be a problem.
+			</li>
+
+			<li>
+				Anything else you like!  The above are just suggestions.  Including members of staff's
+				photographs, etc., are things that I wouldn't penalise.  Maybe politicians with egg on their
+				face could be a theme.
+			</li>
+		</ul>
+
+		<p>
+			I will run your code through three utilities - Findbugs, CheckStyle and pmd.
+		</p>
+
+		<p>
+			Findbugs will find likely bugs in your code, and I will look at these to see whether I can reproduce
+			them as a user.
+		</p>
+
+		<p>
+			CheckStyle will point out 'wrong' or bad code, and even tell me why it's bad, so I'll look at these
+			individually.  Things like BADLY_naMeD___variables and useless assignments (x=x) are picked up by
+			this.
+		</p>
+
+		<p>
+			pmd will tell me whether you copied and pasted code from one part of your project to another.  It
+			will also tell me whether you copied and pasted it from somebody else's project.  Note that under
+			University regulations, ALL INVOLVED PARTIES will be penalised.  Zero is a common mark.
+		</p>
+
+		<p>
+			If you copy code from sources on the Internet, you <b>MUST</b> reference them.  I have read a lot
+			of code, and can quickly tell whether code looks too advanced for the student.
+		</p>
+
+		<p>
+			Referenced code itself is worth no marks, but you can get marks for interfacing with it.  I will
+			treat it as if it is part of the Java libraries.
+		</p>
+
+		<p>
+			The final code that you submit should execute, so always keep a working copy around while you are
+			developing.  It is a good idea to take a daily or weekly copy of your code, so that if you
+			delete or change something you can easily look back at the differences.  Many 'diff' tools exist to
+			help with the comparison.
+		</p>
+
+		<h3>Report</h3>
+
+		<p>
+			The report does not have a defined number of pages or words.
+		</p>
+
+		<p>
+			The report explains the design, implementation, remaining bugs (honesty is best here), and
+			possible future extensions or ideas for similar projects.
+		</p>
+
+		<p>
+			Explain does not mean describe.  I can read your code, please don't rewrite it in English in the
+			report.  For example:
+		</p>
+
+		<p>
+			BAD: I couldn't get the Thimble to work, so I didn't use it.
+		</p>
+
+		<p>
+			GOOD: The Thimble gave me an OutOfMemoryError.  I googled for Java memory profilers and found JMP (Java Memory Profiler), and I found that the bug was in the Thimble's Dongle class, which tried to allocate 15GB of memory.  I reported a bug . www.thimble.org/bugs?145235 . then the author told me I should use Thomble instead, which works around that bug.
+		</p>
+
+		<p>Note that Thimble, Thomble and Dongle are imaginary!</p>
+
+		<p>
+			So, I want to know your thought process.  Don't limit your ideas for extension to the current zombies game.
+		</p>
+
+		<h3>Code Demo</h3>
+
+		<p>
+			You will give me a demo of your game, and we will look at the code together.  This is the time when
+			I will spot code that you didn't write, and we will make sure you don't submit it.  Of course,
+			pmd will later check that too.
+		</p>
+	</body>
+</html>
